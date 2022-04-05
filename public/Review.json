@@ -1,31 +1,31 @@
 [{
     "id": 1,
     "name": "Bondon",
-    "desc": "147.199.151.7",
-    "rating": "177.134.133.122"
+    "desc": "There products quality is awsome",
+    "rating": "5"
   }, {
     "id": 2,
     "name": "Keenan",
-    "desc": "239.154.169.194",
-    "rating": "237.43.139.24"
+    "desc": "There products quality is good",
+    "rating": "4"
   }, {
     "id": 3,
     "name": "Katrinka",
-    "desc": "74.173.140.95",
-    "rating": "252.183.3.41"
+    "desc": "There products quality is good",
+    "rating": "5"
   }, {
     "id": 4,
     "name": "Carine",
-    "desc": "23.206.12.243",
-    "rating": "166.141.114.6"
+    "desc": "There products quality is average",
+    "rating": "4"
   }, {
     "id": 5,
     "name": "Franciska",
-    "desc": "126.18.245.62",
-    "rating": "101.237.245.204"
+    "desc": "There products quality is quite good",
+    "rating": "4.5"
   }, {
     "id": 6,
     "name": "Lucinda",
-    "desc": "30.164.97.9",
-    "rating": "161.56.38.249"
+    "desc": "There products quality is the best",
+    "rating": "5"
   }]

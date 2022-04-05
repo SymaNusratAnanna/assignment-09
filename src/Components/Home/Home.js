@@ -15,7 +15,8 @@ Wear Fantasy is a brand where you can buy your desirabele fashion wear!!Grave th
     <img src={require('../../Assets/Images/coverpic.jpg')} alt="" />
 </div>
 
-<div>
+<div className='mt-24
+'>
     <button className='p-3 bg-blue-600 rounded-xl text-3xl text-white'> Show all reviews</button>
 </div>
         </div>
