@@ -1,6 +1,9 @@
 import React from 'react';
+import useReview from '../../hook/useReview';
+import Review from '../Review/Review';
 
 const Home = () => {
+    const [reviews] = useReview();
     return (
         // <div className='flex justify-between items-center mt-5 mx-24 align-middle'>
         <div className='grid grid-cols-2 gap-4 ml-24 mt-12'>
@@ -14,11 +17,16 @@ Wear Fantasy is a brand where you can buy your desirabele fashion wear!!Grave th
 <div>
     <img src={require('../../Assets/Images/coverpic.jpg')} alt="" />
 </div>
-
-<div className='mt-24
-'>
+<div className='mt-24'>
+    <h2 className='text-center font-bold text-3xl'>Customar Review</h2>
+    <div className='flex'>
+        {
+reviews.slice(0,3).map(review=><Review key = {review.id} review= {review}></Review>)
+        }
+    </div>
     <button className='p-3 bg-blue-600 rounded-xl text-3xl text-white'> Show all reviews</button>
 </div>
+
         </div>
     );
 };
